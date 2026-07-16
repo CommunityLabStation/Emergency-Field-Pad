@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Community Resilience Outage Card</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#ececec;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:18px;
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.toolbar{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    padding:18px;
+}
+
+button{
+
+    background:#1d6b3a;
+    color:white;
+    border:none;
+    padding:14px 24px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+
+    background:#124927;
+
+}
+
+.sheet{
+
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+
+}
+
+.sheet img{
+
+    width:100%;
+    box-shadow:0 8px 30px rgba(0,0,0,.25);
+
+}
+
+footer{
+
+    text-align:center;
+    padding:30px;
+    color:#666;
+
+}
+
+@media print{
+
+header,
+.toolbar,
+footer{
+
+display:none;
+
+}
+
+body{
+
+background:white;
+
+}
+
+.sheet{
+
+max-width:100%;
+padding:0;
+
+}
+
+.sheet img{
+
+box-shadow:none;
+
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+Community Resilience Outage Card
+
+</header>
+
+<div class="toolbar">
+
+<button onclick="downloadImage()">
+
+📥 Download Sheet
+
+</button>
+
+<button onclick="window.print()">
+
+🖨️ Print Sheet
+
+</button>
+
+</div>
+
+<div class="sheet">
+
+<img
+id="card"
+src="community-resilience-card.png"
+alt="Community Resilience Outage Card">
+
+</div>
+
+<footer>
+
+Community Resilience Protocol
+
+</footer>
+
+<script>
+
+function downloadImage(){
+
+const image=document.getElementById("card");
+
+const a=document.createElement("a");
+
+a.href=image.src;
+
+a.download="Community_Resilience_Outage_Card.png";
+
+document.body.appendChild(a);
+
+a.click();
+
+document.body.removeChild(a);
+
+}
+
+</script>
+
+</body>
+</html>
