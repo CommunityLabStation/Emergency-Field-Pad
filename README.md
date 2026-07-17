@@ -39,14 +39,14 @@ Connect — Build support networks.
 Sustain — Strengthen resilience through collaboration.
 
 IMPACT AREAS
-Community Engagement and Listening
-Preparedness
-Readiness and Continuity
-Technology
-Civic Innovation
-Tools
-Networks
-Relationship Mapping
+Community Engagement and Listening~
+Preparedness~
+Readiness and Continuity~
+Technology~
+Civic Innovation~
+Tools~
+Networks~
+Relationship Mapping~
 
 ABOUT THE CREATOR
 Created by Tiffany Toru Johnson, this portfolio is an evolving exploration of community resilience, civic technology, documentation, preparedness, and collective care. It connects community engagement, documentation practices, pod mapping, emergency planning, and digital innovation.
@@ -67,7 +67,6 @@ Integrate tools to build a holistic resilience strategy.
 
 Share and collaborate with community members, organizations, and networks.
 
-CONTRIBUTING
 Contributions are welcome and may include new resilience tools, documentation improvements, civic-tech integrations, preparedness workflows, relationship-mapping enhancements, and community feedback.
 Please ensure contributions align with the project’s values: clarity, community care, preparedness, and collaboration.
 
